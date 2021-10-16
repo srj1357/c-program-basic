@@ -16,8 +16,8 @@ scanf("%d",&sub4);
 printf("enter the sub5 marks=");
 scanf("%d",&sub5);
 printf("the total of marks=%d",sub1+sub2+sub3+sub4+sub5);
-printf("\n the average marks =%d",(sub1+sub2+sub3+sub4+sub5)/5);
-printf("\n the marks percent =%d",((sub1+sub2+sub3+sub4+sub5)*100)/(5*base));
+printf("\n the average marks =%f",(sub1+sub2+sub3+sub4+sub5)/5.0);
+printf("\n the marks percent =%f",((sub1+sub2+sub3+sub4+sub5)*100.0)/(5.0*base));
     return 0;
 
 }
